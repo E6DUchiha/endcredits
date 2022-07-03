@@ -23,11 +23,11 @@ $(document).ready(function () {
 
         $('#titles').fadeIn(1000);
         $('#titles').fadeTo("slow");
-        $('#titles').fadeIn();
+//         $('#titles').fadeIn();
         $('#credits').css("left", (($('#credits').parent().width() - $('#credits').outerWidth()) / 2) + "px");
         $('#credits').css("bottom", "-" + (maskHeight * 2) + "px");
-//         $('#credits').show('slow');
-        $('#credits').show(1200);
+        $('#credits').show('slow');
+//         $('#credits').show(1000);
         $('#credits').animate({
             bottom: maskHeight + "px"
         }, {
