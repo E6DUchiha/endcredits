@@ -23,7 +23,7 @@ $(document).ready(function () {
 
         $('#titles').fadeIn(1000);
         $('#titles').fadeTo("slow");
-        $('#titles').fadeIn();
+//         $('#titles').fadeIn();
         $('#credits').css("left", (($('#credits').parent().width() - $('#credits').outerWidth()) / 2) + "px");
         $('#credits').css("bottom", "-" + (maskHeight * 2) + "px");
         $('#credits').show('slow');
