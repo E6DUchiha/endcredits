@@ -53,10 +53,10 @@
     font-size: 20px;    
 }
 #credits p {
-    width: 508px;
+    width: 856px;
     margin: 10px 0px 10px 60px;
     text-align: center;
-    font-family: Arial, sans-serif;
+    font-family: cursive;
     font-size: 20px;
 }
 #credits .fineprint {
@@ -65,7 +65,7 @@
     margin: 80px 0 0 50px;
     text-align: center;
     font-size: 10px;
-    font-family: sans-serif;
+    font-family: monospace;
 }
 .clearfix: after {
     visibility: hidden;
