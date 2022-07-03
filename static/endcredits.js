@@ -31,7 +31,7 @@ $(document).ready(function () {
         $('#credits').animate({
             bottom: maskHeight + "px"
         }, {
-            duration: 60000,
+            duration: 100000,
             complete: function () {
                 $('#titles').fadeOut();
                 $('.window').fadeOut();
